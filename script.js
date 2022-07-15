@@ -12,7 +12,9 @@ let humanWins = 0;
 let computerWins = 0;
 
 function humanPlay() {
-  humanChoice = prompt();
+  humanChoice = prompt(
+    "Valid options: 'rock', 'paper', 'scissors'. Case insensitive and empty space insensitive."
+  );
   humanSelection = humanChoice.trim().toLowerCase();
 }
 
@@ -37,12 +39,6 @@ function round(computerSelection, humanSelection) {
   resultTie = result.includes("tie game");
 
   console.log(result);
-}
-
-function play() {
-  humanPlay();
-  computerPlay();
-  round(computerSelection, humanSelection);
 }
 
 function game() {
