@@ -12,7 +12,7 @@ body {
 
 .selections {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -60,6 +60,7 @@ body {
         margin: 0;
     }
     .selections {
+        justify-content: space-between;
         gap: 10px;
     }
     .results {
