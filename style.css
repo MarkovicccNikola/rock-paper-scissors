@@ -43,3 +43,13 @@ body {
     font-size: 2rem;
     color: #333;
 }
+
+.result-selection {
+    opacity: .5;
+    font-size: 3.7rem;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 5rem;
+}
