@@ -6,7 +6,8 @@
 
 body {
     margin: 0 20%;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(0, 17, 110);
+    color: white;
 }
 
 .selections {
@@ -41,7 +42,7 @@ body {
 .result-score {
     margin-left: .1rem;
     font-size: 2rem;
-    color: #333;
+    color: rgb(168, 168, 168);
 }
 
 .result-selection {
