@@ -12,7 +12,7 @@ body {
 
 .selections {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
 }
 
@@ -53,4 +53,19 @@ body {
 .result-selection.winner {
     opacity: 1;
     font-size: 5rem;
+}
+
+@media screen and (min-width:320px) and (max-width:1000px){
+    body {
+        margin: 0;
+    }
+    .selections {
+        gap: 10px;
+    }
+    .results {
+        font-size: 2rem;
+    }
+    .result-score {
+        font-size: 1.2rem;
+    }
 }
